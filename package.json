@@ -1,0 +1,44 @@
+{
+  "name": "twelve-axes-core",
+  "version": "1.0.0",
+  "description": "Pure calculation engine and 12-axis political coordinate system for The 12 Axes (12axes.site)",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "homepage": "https://12axes.site/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peacoke/twelve-axes.git",
+    "directory": "packages/twelve-axes-core"
+  },
+  "bugs": {
+    "url": "https://github.com/Peacoke/twelve-axes/issues"
+  },
+  "keywords": [
+    "12axes",
+    "twelve-axes",
+    "political-compass",
+    "political-quiz",
+    "political-science",
+    "ideology",
+    "ideology-matching"
+  ],
+  "author": "Axes Explorer <support@12axes.site>",
+  "license": "MIT"
+}
